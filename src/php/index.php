@@ -29,15 +29,15 @@
                     </div>
                     <div class="col-1-of-2">
                         <div class="composition">
-                            <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                            <img srcset="<?php echo get_template_directory_uri(); ?>/img/nat-1.jpg 300w, <?php echo get_template_directory_uri(); ?>/img/nat-1-large.jpg 1000w"
                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo 1" class="composition__photo composition__photo--p1"
                                 src="<?php echo get_template_directory_uri(); ?>/img/nat-1-large.jpg">
-                            <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                            <img srcset="<?php echo get_template_directory_uri(); ?>/img/nat-2.jpg 300w, <?php echo get_template_directory_uri(); ?>/img/nat-2-large.jpg 1000w"
                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo 2" class="composition__photo composition__photo--p2"
                                 src="<?php echo get_template_directory_uri(); ?>/img/nat-2-large.jpg">
-                            <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                            <img srcset="<?php echo get_template_directory_uri(); ?>/img/nat-3.jpg 300w, <?php echo get_template_directory_uri(); ?>/img/nat-3-large.jpg 1000w"
                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo 3" class="composition__photo composition__photo--p3"
                                 src="<?php echo get_template_directory_uri(); ?>/img/nat-3-large.jpg">
