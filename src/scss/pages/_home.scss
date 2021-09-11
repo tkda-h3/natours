@@ -1,14 +1,14 @@
 .section-about {
   background-color: $color-grey-light-1;
-  padding: 35rem 0 35rem;
-  margin-top: -20vh;
+  padding: 20rem 0 45rem;
+  margin-top: -10vh;
 
   @include respond(tab-land){
-    padding: 30rem 0 30rem;
+    padding: 15rem 0 30rem;
   }
 
   @include respond(tab-port){
-    padding: 35rem 0 20rem;
+    padding: 20rem 0 20rem;
   }
 }
 
@@ -20,11 +20,11 @@
                   rgba($color-primary-dark, 0.8)
   ),  url("../img/nat-4.jpg");
   background-size: cover;
-  transform: skewY(-7deg);
-  margin-top: -10rem;
+  transform: skewY(-5deg);
+  margin-top: -5rem;
 
   & > * {
-    transform: skewY(7deg);
+    transform: skewY(5deg);
   }
 
   &__row {
@@ -74,12 +74,13 @@
 
 .book {
   background-image: linear-gradient(
-    105deg,
-    rgba($color-white, .8) 50%,
-    transparent 50% 100%
+    80deg,
+    rgba($color-white, .8) 65%,
+    transparent 65% 100%
   ),
   url(../img/nat-10.jpg);
-  background-size: 100%;
+
+  background-size: cover;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, .35);
 
@@ -87,21 +88,17 @@
 
   @include respond(tab-land){
     background-image: linear-gradient(
-                    105deg,
-                    rgba($color-white, .8) 65%,
-                    transparent 65% 100%
+                    80deg,
+                    rgba($color-white, .8) 75%,
+                    transparent 75% 100%
     ),
     url(../img/nat-10.jpg);
-    //width: 100%;
     background-size: cover;
-    //border-radius: 3px;
-    //box-shadow: 0 1.5rem 4rem rgba($color-black, .35);
-    //height: 50rem;
   }
 
   @include respond(tab-port) {
     background-image: linear-gradient(
-                    105deg,
+                    80deg,
                     rgba($color-white, .8) 0 100%
     ),
     url(../img/nat-10.jpg);
@@ -110,7 +107,7 @@
 
   &__form {
     padding: 5rem;
-    width: 52%;
+    width: 65%;
     @include respond(tab-land){
       width: 65%;
     }

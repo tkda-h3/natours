@@ -3,13 +3,13 @@
     margin-bottom: 2rem;
   }
 
-  &__input {
+  &__input, &__textarea {
     font-size: 1.5rem;
     font-family: inherit;
     color: inherit;
     padding: 1.5rem 2rem;
     border-radius: 2px;
-    background-color: rgba($color-white, .5);
+    background-color: rgba($color-white, .6);
     border: none;
     border-bottom: 3px solid transparent;
     width: 90%;
@@ -42,6 +42,15 @@
     margin-top: .7rem;
     display: block;
     transition: all .3s;
+    // transform: translateY(-8rem);
+  }
+
+  &__input + &__label {
+    transform: translateY(-7.5rem);
+  }
+
+  &__textarea + &__label {
+    transform: translateY(-17.5rem);
   }
 
   &__input:placeholder-shown + &__label {
@@ -50,10 +59,21 @@
     transform: translateY(-4rem);
   }
 
+  &__textarea:placeholder-shown + &__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-15rem);
+  }
 
+  &__textarea {
+    width: 100%;
+    height: 15rem;
+  }
+  
   &__radio-group {
     width: 49%;
     display: inline-block;
+    
 
     @include respond(tab-port){
       display: block;
