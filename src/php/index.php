@@ -15,7 +15,7 @@
     <section class="section-about">
         <div class="u-center-text u-margin-bottom-big">
             <h2 class="heading-secondary">
-                冒険好きがワクワクするツアー
+                大自然でアクティビティ
             </h2>
         </div>
         <div class="flex">

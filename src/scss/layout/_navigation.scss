@@ -17,8 +17,8 @@
     cursor: pointer;
 
     @include respond(tab-port){
-      top: 3.5rem;
-      right: 3.5rem;
+      top: 2rem;
+      right: 2rem;
     }
   }
 
@@ -34,8 +34,8 @@
     transition: transform .8s;
 
     @include respond(tab-port){
-      top: 4rem;
-      right: 4rem;
+      top: 2rem;
+      right: 2rem;
     }
   }
 

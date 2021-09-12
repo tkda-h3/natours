@@ -78,6 +78,13 @@
       display: inline-block;
       width: 25%;
       margin: 0;
+
+      @include respond(tab-port){
+        width: 100%;
+        &:not(:last-child){
+          margin-bottom: 1.5rem;
+        }
+      }
     }
 
     .radio-category {
