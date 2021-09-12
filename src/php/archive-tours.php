@@ -1,0 +1,112 @@
+<?php get_header(); ?>
+    <header class="header">
+        <div class="header__logo-box">
+            <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" alt="logo" class="header__logo"></a>
+        </div>
+        <div class="header__inner">
+            <h1 class="page-heading--primary">ツアー</h1>
+        </div>
+    </header>
+    <main>
+        <section class="section-tours section-page--gray-light-1">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    人気のツアー
+                </h2>
+            </div>
+
+            <div class="flex">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture" style="background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(<?php echo get_template_directory_uri(); ?>/img/nat-5.jpg);">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">海辺の<br>探検</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>2泊3日のツアー</li>
+                                    <li>最大30人</li>
+                                    <li>ガイド2人</li>
+                                    <li>ホテルに宿泊</li>
+                                    <li>レベル: 初級</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-1">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-value">29,800円</p>
+                                </div>
+                                <a href="#popup" class="btn btn--white">予約する</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture" style="background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(<?php echo get_template_directory_uri(); ?>/img/nat-6.jpg);">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--2">森の<br>ハイキング</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>7泊8日のツアー</li>
+                                    <li>最大40人</li>
+                                    <li>ガイド6人</li>
+                                    <li>拠点のテント</li>
+                                    <li>レベル: 中級</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-value">49,800円</p>
+                                </div>
+                                <a href="#popup" class="btn btn--white">予約する</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture" style="background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(<?php echo get_template_directory_uri(); ?>/img/nat-7.jpg);">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--3">雪の<br>アクティビティ</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>5泊6日のツアー</li>
+                                    <li>最大15人</li>
+                                    <li>ガイド3人</li>
+                                    <li>ホテルに宿泊</li>
+                                    <li>レベル: 上級</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-value">89,800円</p>
+                                </div>
+                                <a href="#popup" class="btn btn--white">予約する</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <?php get_template_part('part/book_popup'); ?>
+    <?php get_footer(); ?>
