@@ -38,6 +38,7 @@ gulp.task('ejs:php:init', () => {
             }
         }))
         .pipe(replace(/src="(\.\.\/)*img/g, 'src="<?php echo get_template_directory_uri(); ?>/img'))
+        .pipe(replace(/url\((\.\.\/)+(.*?)\)/g, 'url(./$2)')) // background-image, font などのプロパティの相対パス修正
         .pipe(replace(/<%- +include\( *'part\/__load_css\.html\.ejs' *\) +%>/g, '<?php wp_head(); ?>')) // cssの直書きを修正
         .pipe(replace(/<%- +include\( *'part\/__load_js\.html\.ejs' *\) +%>/g, '<?php wp_footer(); ?>')) // jsの直書きを修正
         .pipe(replace(/<%- +include\( *'_header\.html\.ejs' *\) +%>/g, '<?php get_header(); ?>')) // get_header();
