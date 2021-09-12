@@ -22,7 +22,7 @@
                     risus ultricies tristique nulla aliquet. Leo integer malesuada nunc vel risus. Vulputate enim
                     nulla aliquet porttitor. Vel elit scelerisque mauris pellentesque pulvinar.
                 </p>
-                <a href="/contact.html" class="btn btn--green">予約する</a>
+                <a href="<?php echo site_url('/contact'); ?>" class="btn btn--green">予約する</a>
             </div>
         </div>
     </div>

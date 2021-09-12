@@ -11,10 +11,10 @@
   </div>
   <div class="footer__navigation">
     <ul class="footer__list">
-      <li class="footer__item"><a href="/about.html" class="footer__link">会社概要</a></li>
-      <li class="footer__item"><a href="/contact.html" class="footer__link">お問い合わせ</a></li>
-      <li class="footer__item"><a href="/privacy-policy.html" class="footer__link">プライパシーポリシー</a></li>
-      <li class="footer__item"><a href="/tos.html" class="footer__link">利用規約</a></li>
+      <li class="footer__item"><a href="<?php echo site_url('/about'); ?>" class="footer__link">会社概要</a></li>
+      <li class="footer__item"><a href="<?php echo site_url('/contact'); ?>" class="footer__link">お問い合わせ</a></li>
+      <li class="footer__item"><a href="<?php echo site_url('/privacy-policy'); ?>" class="footer__link">プライパシーポリシー</a></li>
+      <li class="footer__item"><a href="<?php echo site_url('/tos'); ?>" class="footer__link">利用規約</a></li>
     </ul>
   </div>
 </footer>

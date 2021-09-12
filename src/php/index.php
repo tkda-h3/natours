@@ -1,14 +1,14 @@
 <?php get_header(); ?>
     <header class="header-top">
         <div class="header-top__logo-box">
-            <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" alt="logo" class="header__logo"></a>
+            <a href="<?php echo site_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" alt="logo" class="header__logo"></a>
         </div>
         <div class="header-top__text-box">
             <h1 class="heading-primary">
                 <span class="heading-primary--main">Natours</span>
                 <span class="heading-primary--sub">アウトドア好きのための旅行サイト</span>
             </h1>
-            <a href="/tours.html" class="btn btn--white btn--animated">ツアーを探す</a>
+            <a href="<?php echo site_url('/tours'); ?>" class="btn btn--white btn--animated">ツアーを探す</a>
         </div>
     </header>
     <main>
@@ -183,7 +183,7 @@
             </div>
 
             <div class="u-center-text u-margin-top-huge">
-                <a href="/tours.html" class="btn btn--green">他のツアーを探す</a>
+                <a href="<?php echo site_url('/tours'); ?>" class="btn btn--green">他のツアーを探す</a>
             </div>
         </section>
         <section class="section-stories">
@@ -233,7 +233,7 @@
                 </div>
             </div>
             <div class="u-center-text u-margin-top-huge">
-                <a href="/stories.html" class="btn-text">もっと見る</a>
+                <a href="<?php echo site_url('/stories'); ?>" class="btn-text">もっと見る</a>
             </div>
         </section>
         <section class="section-book">
