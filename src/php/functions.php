@@ -50,10 +50,22 @@ add_action('init', function(){
 			'singular_name' => 'Story',
 		),
 		'rewrite' => array('slug' => 'stories'),
-		'supports' => array('title', 'editor', 'custom-fields'),
+		'supports' => array('title', 'custom-fields'),
 		'menu_icon' => 'dashicons-admin-comments',
 		'public'        => true,
 		'has_archive'   => true,
 		'show_in_rest'  => true,
 	)); 
+});
+
+
+// disallow story to have single page
+// redirect single story post to the archive page
+add_action( 'template_redirect', function() {
+	if ( is_singular('story') ) {
+			// global $post;
+			$redirect_link = get_post_type_archive_link( 'story' );
+			wp_safe_redirect( $redirect_link, 302 );
+			exit;
+	}
 });
