@@ -41,14 +41,15 @@
   &__content {
     @include absCenter;
     width: 75%;
-    //height: 50rem;
+    max-height: 80vh;
     background-color: $color-white;
     box-shadow: 0 2rem 4rem rgba($color-black, .2);
     border-radius: 3px;
-    display: table;
+    display: block;
     opacity: 0;
     transform: translate(-50%, -50%) scale(.25);
     transition: all .5s .2s;
+    overflow-y: scroll;
 
     @include respond(tab-port){
       display: block;
@@ -58,6 +59,7 @@
     }
 
     &-inner {
+      display: flex;
       @include respond(tab-port){
         display: flex;
         flex-direction: column-reverse;
@@ -68,8 +70,10 @@
 
   &__side {
     width: calc(100% / 3);
-    display: table-cell;
-    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+
+    // overflow: scroll;
 
     @include respond(tab-port){
       display: flex;
@@ -100,6 +104,8 @@
   &__img {
     display: block;
     width: 100%;
+    height: 50%;
+    object-fit: cover;
     @include respond(tab-port){
       width: 50%;
     }
