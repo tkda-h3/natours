@@ -41,10 +41,12 @@
 
   &:hover &__side--front {
     transform: rotateY(180deg);
+    // transform: rotateY(360deg);
   }
 
   &:hover &__side--back {
     transform: rotateY(360deg);
+    // transform: rotateY(540deg);
   }
 
   // front side styling

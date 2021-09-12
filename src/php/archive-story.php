@@ -1,0 +1,109 @@
+<?php get_header(); ?>
+    <header class="header">
+        <div class="header__logo-box">
+            <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" alt="logo" class="header__logo"></a>
+        </div>
+        <div class="header__inner">
+            <h1 class="page-heading--primary">ツアー参加者の声</h1>
+        </div>
+    </header>
+    <main>
+        <section class="section-page section-page--gray-light-1">
+            <div class="flex">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/nat-8.jpg" alt="person on a tour" class="story__img">
+                        <figcaption class="story__caption">長谷川<br>佳奈</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-top-small">
+                            家族と最高の1週間を過ごすことができました
+                        </h3>
+                        <p>
+                            私たち家族は東京に住んでいて自然に触れ合う機会が多くありません。
+                            子どもたちが幼いうちに自然を体感できるアクティビティを体験させてあげたいと考え、
+                            思い切って1週間のツアーに参加しました。現地についたらすぐに子どもたちが目を輝かせ、旅行中毎日楽しそうに過ごしてくれたのを見て
+                            このツアーに参加してよかったと本当に思いました。
+                        </p>
+                    </div>
+                </div>
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/nat-9.jpg" alt="Person on a tour" class="story__img">
+                        <figcaption class="story__caption">岡谷<br>悠人</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">私の人生観がガラッと変わりました</h3>
+                        <p>
+                            美しいアドリア海のツアーに参加し、アクティビティでサーフィンを体験してきました。やるまでは全然興味がなかったのですが、
+                            波にキレイに乗って前に進んだときの快感が忘れられず、ツアー後も海に通うようになりました。ツアー中に交流した現地の方たちの
+                            のんびりとした生活にも衝撃を受け、自分ももっと好きなことにチャレンジしようと思えるようになりました。
+                        </p>
+                    </div>
+                </div>
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/nat-8.jpg" alt="person on a tour" class="story__img">
+                        <figcaption class="story__caption">長谷川<br>佳奈</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-top-small">
+                            家族と最高の1週間を過ごすことができました
+                        </h3>
+                        <p>
+                            私たち家族は東京に住んでいて自然に触れ合う機会が多くありません。
+                            子どもたちが幼いうちに自然を体感できるアクティビティを体験させてあげたいと考え、
+                            思い切って1週間のツアーに参加しました。現地についたらすぐに子どもたちが目を輝かせ、旅行中毎日楽しそうに過ごしてくれたのを見て
+                            このツアーに参加してよかったと本当に思いました。
+                        </p>
+                    </div>
+                </div>
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/nat-9.jpg" alt="Person on a tour" class="story__img">
+                        <figcaption class="story__caption">岡谷<br>悠人</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">私の人生観がガラッと変わりました</h3>
+                        <p>
+                            美しいアドリア海のツアーに参加し、アクティビティでサーフィンを体験してきました。やるまでは全然興味がなかったのですが、
+                            波にキレイに乗って前に進んだときの快感が忘れられず、ツアー後も海に通うようになりました。ツアー中に交流した現地の方たちの
+                            のんびりとした生活にも衝撃を受け、自分ももっと好きなことにチャレンジしようと思えるようになりました。
+                        </p>
+                    </div>
+                </div>
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/nat-8.jpg" alt="person on a tour" class="story__img">
+                        <figcaption class="story__caption">長谷川<br>佳奈</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-top-small">
+                            家族と最高の1週間を過ごすことができました
+                        </h3>
+                        <p>
+                            私たち家族は東京に住んでいて自然に触れ合う機会が多くありません。
+                            子どもたちが幼いうちに自然を体感できるアクティビティを体験させてあげたいと考え、
+                            思い切って1週間のツアーに参加しました。現地についたらすぐに子どもたちが目を輝かせ、旅行中毎日楽しそうに過ごしてくれたのを見て
+                            このツアーに参加してよかったと本当に思いました。
+                        </p>
+                    </div>
+                </div>
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/nat-9.jpg" alt="Person on a tour" class="story__img">
+                        <figcaption class="story__caption">岡谷<br>悠人</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">私の人生観がガラッと変わりました</h3>
+                        <p>
+                            美しいアドリア海のツアーに参加し、アクティビティでサーフィンを体験してきました。やるまでは全然興味がなかったのですが、
+                            波にキレイに乗って前に進んだときの快感が忘れられず、ツアー後も海に通うようになりました。ツアー中に交流した現地の方たちの
+                            のんびりとした生活にも衝撃を受け、自分ももっと好きなことにチャレンジしようと思えるようになりました。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <?php get_footer(); ?>

@@ -1,23 +1,24 @@
 <footer class="footer">
   <div class="footer__logo-box">
-<!--            表示する画像をブラウザ幅で制御-->
+    <!--            表示する画像をブラウザ幅で制御-->
+    <a href="/">
       <picture class="footer__logo">
-          <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
-                  media="(max-width: 37.5em)"
-                  src="img/logo-green-2x.png">
-          <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo" class="footer__logo">
+        <source srcset="../img/logo-green-small-1x.png 1x, ../img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)"
+          src="img/logo-green-2x.png">
+        <img srcset="../img/logo-green-1x.png 1x, ../img/logo-green-2x.png 2x" alt="Full logo" class="footer__logo">
       </picture>
+    </a>
   </div>
   <div class="footer__navigation">
-      <ul class="footer__list">
-          <li class="footer__item"><a href="#" class="footer__link">会社概要</a></li>
-          <li class="footer__item"><a href="#" class="footer__link">お問い合わせ</a></li>
-          <li class="footer__item"><a href="#" class="footer__link">採用</a></li>
-          <li class="footer__item"><a href="#" class="footer__link">プライパシーポリシー</a></li>
-          <li class="footer__item"><a href="#" class="footer__link">利用規約</a></li>
-      </ul>
+    <ul class="footer__list">
+      <li class="footer__item"><a href="/about.html" class="footer__link">会社概要</a></li>
+      <li class="footer__item"><a href="/contact.html" class="footer__link">お問い合わせ</a></li>
+      <li class="footer__item"><a href="/privacy-policy.html" class="footer__link">プライパシーポリシー</a></li>
+      <li class="footer__item"><a href="/tos.html" class="footer__link">利用規約</a></li>
+    </ul>
   </div>
 </footer>
 <%- include('part/__load_js.html.ejs') %>
-</body>
-</html>
+  </body>
+
+  </html>
