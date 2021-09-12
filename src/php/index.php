@@ -189,13 +189,31 @@
                 <?php endwhile; ?>
             </div>
         <?php endif; ?>
+        <?php wp_reset_postdata(); ?>
         <div class="u-center-text u-margin-top-huge">
             <a href="<?php echo site_url('/stories'); ?>" class="btn-text">もっと見る</a>
         </div>
     </section>
     <section class="section-book">
         <div class="row">
-            <?php get_template_part('part/book_form'); ?>
+            <div class="book">
+                <div class="book__form">
+                    <?php
+                    $contact = new WP_Query(
+                        array(
+                            'post_type' => 'page',
+                            'post_status' => 'publish',
+                            'name' => 'contact', // slug
+                        ),
+                    );
+                    ?>
+                    <?php if ($contact->have_posts()) : while ($contact->have_posts()) : $contact->the_post(); ?>
+                            <?php the_content(); ?>
+                    <?php endwhile;
+                    endif; ?>
+                    <?php wp_reset_postdata(); ?>
+                </div>
+            </div>
         </div>
     </section>
 </main>
