@@ -191,7 +191,7 @@
         <?php endif; ?>
         <?php wp_reset_postdata(); ?>
         <div class="u-center-text u-margin-top-huge">
-            <a href="<?php echo site_url('/stories'); ?>" class="btn-text">もっと見る</a>
+            <a href="<?php echo site_url('/stories'); ?>" class="btn btn--green btn--animated">さらに見る</a>
         </div>
     </section>
     <section class="section-book">

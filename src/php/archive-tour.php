@@ -67,7 +67,7 @@
             </div>
         <?php endif; ?>
         <div class="pagination">
-            <?php echo paginate_links(); ?>
+            <?php echo paginate_links(array()); ?>
         </div>
     </section>
 </main>

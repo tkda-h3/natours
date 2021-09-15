@@ -1,0 +1,47 @@
+/* 
+* pagination
+*/
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+
+
+.page-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 5px 0;
+  padding: 8px 16px;
+  color: #333;
+  border-radius: 8px;
+  border: 1px solid $color-primary;
+  text-decoration: none;
+  background: #fff;
+
+  &.prev, &.next {
+    align-self: flex-end;
+    background: transparent;
+    box-shadow: none;
+    color: $color-primary;
+    border: none;
+    padding: 0;
+  }
+}
+
+.current {
+  background: $color-primary;
+  color: #fff;
+}
+
+.dots {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+}
+
