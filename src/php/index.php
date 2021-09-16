@@ -22,10 +22,11 @@
             <div class="col-1-of-2">
                 <h3 class="heading-tertiary u-margin-bottom-small">参加すれば自然がもっと好きになる</h3>
                 <p class="paragraph">
-                    世界中の美しい自然を体感できる素晴らしいツアーをご用意しています。
+                    世界中の美しい自然を体感できる素晴らしいツアーをご用意しています。散策などの軽い運動から激しい現地のスポーツまで、お一人からファミリーまでお楽しみいただける様々なプランをご提供いたします。
                 </p>
-
-                <a href="#" class="btn-text">Learn more &rarr;</a>
+                <p class="paragraph">
+                    その土地ならではの特別なアウトドア体験で楽しい思い出を作ってリフレッシュしませんか？
+                </p>
             </div>
             <div class="col-1-of-2">
                 <div class="composition">
