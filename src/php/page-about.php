@@ -4,7 +4,7 @@
             <a href="<?php echo site_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" alt="logo" class="header__logo"></a>
         </div>
         <div class="header__inner">
-            <h1 class="page-heading--primary">Natourについて</h1>
+            <h1 class="page-heading--primary">Natoursについて</h1>
         </div>
     </header>
     <main>
@@ -21,7 +21,7 @@
                 <li class="about-kv__list"><img src="<?php echo $image3; ?>" alt="" class="about-kv__img"></li>
             </ul>
             <div class="section-page-body">
-                <p>Natourは大自然と旅行が大好きな方のために生まれた旅行サイトです。</p>
+                <p>Natoursは大自然と旅行が大好きな方のために生まれた旅行サイトです。</p>
                 <p>海外旅行を中心に現地の気候・イベントを利用したそこでしか味わえない自然体験・スポーツなどのアクティビティを楽しんでいただけるツアーを催行いたします。</p>
                 <p>お一人で過酷なサイクリングレースに参加される方から、現地の自然体験ファミリーで楽しむ方まで様々な方に合うプランをご提案いたします。</p>
             </div>
