@@ -11,9 +11,14 @@
         <section class="section-page section-page--gray-light-1">
             <h2 class="heading-secondary section-page-title">自然を満喫できるアクティビティ旅行プランを提案します</h2>
             <ul class="about-kv">
-                <li class="about-kv__list"><img src="<?php echo get_template_directory_uri(); ?>/img/surfer.jpg" alt="" class="about-kv__img"></li>
-                <li class="about-kv__list"><img src="<?php echo get_template_directory_uri(); ?>/img/paragliding.jpg" alt="" class="about-kv__img"></li>
-                <li class="about-kv__list"><img src="<?php echo get_template_directory_uri(); ?>/img/snow.jpg" alt="" class="about-kv__img"></li>
+                <?php 
+                $image1 = get_field('about-gallery1')['sizes']['about-gallery']; 
+                $image2 = get_field('about-gallery2')['sizes']['about-gallery']; 
+                $image3 = get_field('about-gallery3')['sizes']['about-gallery']; 
+                ?>
+                <li class="about-kv__list"><img src="<?php echo $image1; ?>" alt="" class="about-kv__img"></li>
+                <li class="about-kv__list"><img src="<?php echo $image2; ?>" alt="" class="about-kv__img"></li>
+                <li class="about-kv__list"><img src="<?php echo $image3; ?>" alt="" class="about-kv__img"></li>
             </ul>
             <div class="section-page-body">
                 <p>Natourは大自然と旅行が大好きな方のために生まれた旅行サイトです。</p>

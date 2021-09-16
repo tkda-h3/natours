@@ -28,4 +28,5 @@ add_action('after_setup_theme', function (){
 	// wp-cliで以下のコマンドで再生成可能
 	// $ wp media regenerate --only-missing
 	add_image_size('tour-card', 450, 300, true);
+	add_image_size('about-gallery', 640, 360, true);
 });
