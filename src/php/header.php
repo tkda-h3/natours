@@ -9,8 +9,6 @@
 
     <?php wp_head(); ?>
     <link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon.png">
-
-    <title>Natours | アウトドア好きのための旅行サイト</title>
 </head>
 
 <body>
